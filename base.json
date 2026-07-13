@@ -1,0 +1,105 @@
+{
+    name: 'Hamburguesería Argentina',
+    contacts: {
+        phone: '1123456789',
+        addresses: [
+            'Av. Corrientes 1234, CABA',
+        ],
+        email: 'pedidos@hamburgueseriaargentina.com',
+        hours: 'Lunes a Domingo: 11:00-23:00',
+        socialNetworks: [
+            {
+                name: 'facebook',
+                url: 'https://facebook.com/',
+            },
+            {
+                name: 'instagram',
+                url: 'https://instagram.com/',
+            },
+        ],
+        locations: [
+            {
+                name: 'Buenos Aires',
+                address: 'Av. Corrientes 1234, CABA',
+                url: 'https://www.google.com/maps?q=Gran%20Buenos%20Aires&output=embed',
+            },
+        ],
+        whatsapp: [
+            { phone: '5491123456789' },
+        ],
+    },
+    tagline: 'Tu comida al instante',
+    hero: {
+        subtitle: 'Ingredientes frescos, recetas únicas y el sabor que buscabas. Hacemos cada pedido con amor y dedicación.',
+        image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80',
+        rating: 4.9,
+        images: [
+            'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80',
+            'https://png.pngtree.com/thumb_back/fh260/background/20241127/pngtree-burger-photo-vector-image_16685961.jpg',
+            'https://media-cdn.tripadvisor.com/media/photo-s/25/18/0e/8a/original-smash-burger.jpg',
+            'https://evaboschaudiovisual.com/wp-content/uploads/2024/06/destacada-resta-Burguer.jpg',
+        ],
+    },
+    about: {
+        description: 'Desde 2015, en Hamburgesería Argentina nos dedicamos a crear las hamburguesas más deliciosas de la ciudad. Usamos ingredientes 100% frescos y preparamos cada pedido al momento.',
+        features: [
+            {
+                icon: 'flame',
+                title: 'A la parrilla',
+                description: 'Cocinadas al carbón para ese sabor único',
+            },
+            {
+                icon: 'leaf',
+                title: 'Ingredientes frescos',
+                description: 'Vegetales del día y carnes premium',
+            },
+            {
+                icon: 'clock',
+                title: 'Entrega rápida',
+                description: 'Tu pedido listo en menos de 30 minutos',
+            },
+            {
+                icon: 'heart',
+                title: 'Hecho con amor',
+                description: 'Cada hamburguesa preparada con pasión',
+            },
+        ],
+        images: [
+            {
+                url: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80',
+                alt: 'Nuestro local',
+            },
+            {
+                url: 'https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&q=80',
+                alt: 'Preparación',
+            },
+            {
+                url: 'https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=400&q=80',
+                alt: 'Comida',
+            },
+        ],
+        floating: {
+            icon: 'award',
+            label: '+8 años',
+            description: 'de experiencia',
+        },
+        stats: [
+            {
+                label: '+50K',
+                description: 'Clientes felices',
+            },
+            {
+                label: '12',
+                description: 'Hamburguesas únicas',
+            },
+            {
+                label: '4.9★',
+                description: 'Rating promedio',
+            },
+            {
+                label: '30min',
+                description: 'Tiempo de entrega',
+            },
+        ],
+    }
+}
