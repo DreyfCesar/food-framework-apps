@@ -105,6 +105,6 @@
         ]
     },
     "theme": {
-        "--app-primary": "#fafafa"
+        "--app-primary": "#0000ff"
     }
 }
