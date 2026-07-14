@@ -103,5 +103,8 @@
                 "description": "Tiempo de entrega"
             }
         ]
+    },
+    "theme": {
+        "--app-primary": "#fafafa"
     }
 }
