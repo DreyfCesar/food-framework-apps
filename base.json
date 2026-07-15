@@ -104,5 +104,371 @@
                 "description": "Tiempo de entrega"
             }
         ]
-    }
+    },
+    "categories": [
+        "Todos",
+        "Hamburguesas",
+        "Combos",
+        "Papas",
+        "Bebidas",
+        "Postres"
+    ],
+    "products": [
+        {
+            "id": "hamburguesa-cheddar",
+            "name": "Hamburguesa Cheddar",
+            "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+            "description": "Medallón de carne a la plancha, abundante cheddar fundido y cebolla fresca en pan brioche tostado.",
+            "price": 8500,
+            "category": "Hamburguesas",
+            "isNew": true,
+            "extras": [
+                {
+                    "id": "papas-medianas",
+                    "name": "Papas medianas",
+                    "price": 2500
+                },
+                {
+                    "id": "papas-grandes",
+                    "name": "Papas grandes",
+                    "price": 3500
+                },
+                {
+                    "id": "coca-cola-500ml",
+                    "name": "Coca-Cola 500 ml",
+                    "price": 2200
+                },
+                {
+                    "id": "sprite-500ml",
+                    "name": "Sprite 500 ml",
+                    "price": 2200
+                },
+                {
+                    "id": "agua-mineral",
+                    "name": "Agua mineral",
+                    "price": 1800
+                },
+                {
+                    "id": "extra-cheddar",
+                    "name": "Extra cheddar",
+                    "price": 900
+                },
+                {
+                    "id": "extra-queso",
+                    "name": "Extra queso",
+                    "price": 800
+                },
+                {
+                    "id": "extra-panceta",
+                    "name": "Extra panceta",
+                    "price": 1600
+                },
+                {
+                    "id": "extra-huevo",
+                    "name": "Huevo a la plancha",
+                    "price": 1200
+                }
+            ],
+            "options": [
+                {
+                    "name": "Simple",
+                    "price": 8500,
+                    "description": "Una carne, cheddar y los clásicos."
+                },
+                {
+                    "name": "Doble",
+                    "price": 10800,
+                    "description": "Dos medallones para ir un paso más allá."
+                }
+            ]
+        },
+        {
+            "id": "hamburguesa-bbq",
+            "name": "Hamburguesa BBQ",
+            "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=800&q=80",
+            "description": "Doble carne con panceta crocante, cheddar, cebolla caramelizada y salsa barbacoa ahumada.",
+            "price": 11500,
+            "category": "Hamburguesas",
+            "isPopular": true,
+            "extras": [
+                {
+                    "id": "papas-medianas",
+                    "name": "Papas medianas",
+                    "price": 2500
+                },
+                {
+                    "id": "papas-grandes",
+                    "name": "Papas grandes",
+                    "price": 3500
+                },
+                {
+                    "id": "coca-cola-500ml",
+                    "name": "Coca-Cola 500 ml",
+                    "price": 2200
+                },
+                {
+                    "id": "sprite-500ml",
+                    "name": "Sprite 500 ml",
+                    "price": 2200
+                },
+                {
+                    "id": "agua-mineral",
+                    "name": "Agua mineral",
+                    "price": 1800
+                },
+                {
+                    "id": "extra-cheddar",
+                    "name": "Extra cheddar",
+                    "price": 900
+                },
+                {
+                    "id": "extra-queso",
+                    "name": "Extra queso",
+                    "price": 800
+                },
+                {
+                    "id": "extra-panceta",
+                    "name": "Extra panceta",
+                    "price": 1600
+                },
+                {
+                    "id": "extra-huevo",
+                    "name": "Huevo a la plancha",
+                    "price": 1200
+                }
+            ],
+            "options": [
+                {
+                    "name": "Doble",
+                    "price": 11500,
+                    "description": "Dos medallones con el equilibrio justo."
+                },
+                {
+                    "name": "Triple",
+                    "price": 13600,
+                    "description": "Tres medallones para los más hambrientos."
+                }
+            ]
+        },
+        {
+            "id": "smash-clasica",
+            "name": "Smash Clásica",
+            "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=900&q=80",
+            "description": "Dos medallones smash, queso americano, pepinillos y salsa especial de la casa.",
+            "price": 9800,
+            "category": "Hamburguesas",
+            "isPopular": true,
+            "extras": [
+                {
+                    "id": "papas-medianas",
+                    "name": "Papas medianas",
+                    "price": 2500
+                },
+                {
+                    "id": "papas-grandes",
+                    "name": "Papas grandes",
+                    "price": 3500
+                },
+                {
+                    "id": "coca-cola-500ml",
+                    "name": "Coca-Cola 500 ml",
+                    "price": 2200
+                },
+                {
+                    "id": "sprite-500ml",
+                    "name": "Sprite 500 ml",
+                    "price": 2200
+                },
+                {
+                    "id": "agua-mineral",
+                    "name": "Agua mineral",
+                    "price": 1800
+                },
+                {
+                    "id": "extra-cheddar",
+                    "name": "Extra cheddar",
+                    "price": 900
+                },
+                {
+                    "id": "extra-queso",
+                    "name": "Extra queso",
+                    "price": 800
+                },
+                {
+                    "id": "extra-panceta",
+                    "name": "Extra panceta",
+                    "price": 1600
+                },
+                {
+                    "id": "extra-huevo",
+                    "name": "Huevo a la plancha",
+                    "price": 1200
+                }
+            ],
+            "options": [
+                {
+                    "name": "Simple",
+                    "price": 8500,
+                    "description": "Una carne, cheddar y los clásicos."
+                },
+                {
+                    "name": "Doble",
+                    "price": 10800,
+                    "description": "Dos medallones para ir un paso más allá."
+                }
+            ]
+        },
+        {
+            "id": "bacon-deluxe",
+            "name": "Bacon Deluxe",
+            "image": "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=900&q=80",
+            "description": "Doble carne, cheddar, mucha panceta crocante y cebolla grillada.",
+            "price": 12400,
+            "category": "Hamburguesas",
+            "isNew": true,
+            "extras": [
+                {
+                    "id": "papas-medianas",
+                    "name": "Papas medianas",
+                    "price": 2500
+                },
+                {
+                    "id": "papas-grandes",
+                    "name": "Papas grandes",
+                    "price": 3500
+                },
+                {
+                    "id": "coca-cola-500ml",
+                    "name": "Coca-Cola 500 ml",
+                    "price": 2200
+                },
+                {
+                    "id": "sprite-500ml",
+                    "name": "Sprite 500 ml",
+                    "price": 2200
+                },
+                {
+                    "id": "agua-mineral",
+                    "name": "Agua mineral",
+                    "price": 1800
+                },
+                {
+                    "id": "extra-cheddar",
+                    "name": "Extra cheddar",
+                    "price": 900
+                },
+                {
+                    "id": "extra-queso",
+                    "name": "Extra queso",
+                    "price": 800
+                },
+                {
+                    "id": "extra-panceta",
+                    "name": "Extra panceta",
+                    "price": 1600
+                },
+                {
+                    "id": "extra-huevo",
+                    "name": "Huevo a la plancha",
+                    "price": 1200
+                }
+            ],
+            "options": [
+                {
+                    "name": "Doble",
+                    "price": 11500,
+                    "description": "Dos medallones con el equilibrio justo."
+                },
+                {
+                    "name": "Triple",
+                    "price": 13600,
+                    "description": "Tres medallones para los más hambrientos."
+                }
+            ]
+        },
+        {
+            "id": "combo-clasico",
+            "name": "Combo Clásico",
+            "image": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=900&q=80",
+            "description": "Hamburguesa clásica con papas medianas y bebida de 500 ml.",
+            "price": 14900,
+            "category": "Combos",
+            "discount": 10
+        },
+        {
+            "id": "combo-bbq",
+            "name": "Combo BBQ",
+            "image": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=900&q=80",
+            "description": "Hamburguesa BBQ con papas grandes y bebida a elección.",
+            "price": 17900,
+            "category": "Combos",
+            "isPopular": true
+        },
+        {
+            "id": "papas-clasicas",
+            "name": "Papas Fritas",
+            "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f?w=900&q=80",
+            "description": "Papas fritas recién hechas, doradas por fuera y tiernas por dentro.",
+            "price": 4500,
+            "category": "Papas"
+        },
+        {
+            "id": "papas-cheddar-bacon",
+            "name": "Papas Cheddar & Bacon",
+            "image": "https://images.unsplash.com/photo-1639024471283-03518883512d?w=900&q=80",
+            "description": "Papas cubiertas con cheddar fundido y panceta crocante.",
+            "price": 7200,
+            "category": "Papas",
+            "isPopular": true
+        },
+        {
+            "id": "aros-cebolla",
+            "name": "Aros de Cebolla",
+            "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=900&q=80",
+            "description": "Aros de cebolla rebozados, crujientes y perfectos para compartir.",
+            "price": 5400,
+            "category": "Papas"
+        },
+        {
+            "id": "coca-cola",
+            "name": "Coca-Cola 500 ml",
+            "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=900&q=80",
+            "description": "Coca-Cola bien fría de 500 ml.",
+            "price": 2200,
+            "category": "Bebidas"
+        },
+        {
+            "id": "sprite",
+            "name": "Sprite 500 ml",
+            "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=900&q=80",
+            "description": "Sprite lima-limón de 500 ml.",
+            "price": 2200,
+            "category": "Bebidas"
+        },
+        {
+            "id": "agua-mineral",
+            "name": "Agua Mineral",
+            "image": "https://images.unsplash.com/photo-1564419320461-6870880221ad?w=900&q=80",
+            "description": "Agua mineral sin gas.",
+            "price": 1800,
+            "category": "Bebidas"
+        },
+        {
+            "id": "brownie-helado",
+            "name": "Brownie con Helado",
+            "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=900&q=80",
+            "description": "Brownie tibio servido con una bocha de helado de vainilla.",
+            "price": 5900,
+            "category": "Postres",
+            "isNew": true
+        },
+        {
+            "id": "cookie-helado",
+            "name": "Cookie con Helado",
+            "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=900&q=80",
+            "description": "Cookie de chips de chocolate con helado artesanal de vainilla.",
+            "price": 5600,
+            "category": "Postres"
+        }
+    ]
 }
