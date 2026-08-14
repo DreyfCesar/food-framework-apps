@@ -1,0 +1,561 @@
+{
+  "name": "Forno del Barrio",
+  "logo": "https://cdn-icons-png.flaticon.com/512/3595/3595455.png",
+  "contacts": {
+    "phone": "1145678923",
+    "addresses": [
+      "Av. Santa Fe 2847, CABA"
+    ],
+    "email": "hola@fornodelbarrio.com",
+    "hours": "Lunes a Domingo: 19:00-00:30",
+    "socialNetworks": [
+      {
+        "name": "facebook",
+        "url": "https://facebook.com/"
+      },
+      {
+        "name": "instagram",
+        "url": "https://instagram.com/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Palermo",
+        "address": "Av. Santa Fe 2847, CABA",
+        "url": "https://www.google.com/maps?q=Av.+Santa+Fe+2847,+Buenos+Aires&output=embed"
+      }
+    ],
+    "whatsapp": [
+      {
+        "phone": "5491145678923"
+      }
+    ]
+  },
+  "tagline": "Pizza artesanal, hecha para compartir",
+  "hero": {
+    "subtitle": "Masa de fermentación lenta, ingredientes seleccionados y horno bien caliente. Pizza artesanal hecha al momento para disfrutar sin apuro.",
+    "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=1000&q=80",
+    "rating": 4.8,
+    "images": [
+      "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=1000&q=80",
+      "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=1000&q=80",
+      "https://images.unsplash.com/photo-1593560708920-61dd98c8a2a5?w=1000&q=80",
+      "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=1000&q=80"
+    ]
+  },
+  "about": {
+    "description": "En Forno del Barrio hacemos pizza como nos gusta comerla: masa liviana, bordes dorados, mucho queso e ingredientes frescos. Dejamos fermentar nuestra masa durante 48 horas y cocinamos cada pizza al momento en nuestro horno a alta temperatura.",
+    "features": [
+      {
+        "icon": "flame",
+        "title": "Horno bien caliente",
+        "description": "Cocinamos cada pizza a alta temperatura para lograr un borde dorado y crocante."
+      },
+      {
+        "icon": "leaf",
+        "title": "Ingredientes frescos",
+        "description": "Tomates, albahaca, vegetales y quesos seleccionados para cada receta."
+      },
+      {
+        "icon": "clock",
+        "title": "Masa 48 horas",
+        "description": "Fermentación lenta para conseguir una masa liviana, sabrosa y fácil de disfrutar."
+      },
+      {
+        "icon": "heart",
+        "title": "Hecha al momento",
+        "description": "Preparamos cada pizza cuando la pedís para que llegue recién salida del horno."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=800&q=80",
+        "alt": "Pizza artesanal recién horneada"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=600&q=80",
+        "alt": "Pizza con mozzarella y albahaca"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1593560708920-61dd98c8a2a5?w=600&q=80",
+        "alt": "Pizza artesanal"
+      }
+    ],
+    "floating": {
+      "icon": "award",
+      "label": "48hs",
+      "description": "de fermentación"
+    },
+    "stats": [
+      {
+        "label": "+25K",
+        "description": "Pizzas servidas"
+      },
+      {
+        "label": "12",
+        "description": "Variedades de pizza"
+      },
+      {
+        "label": "4.8★",
+        "description": "Rating promedio"
+      },
+      {
+        "label": "30min",
+        "description": "Tiempo promedio"
+      }
+    ]
+  },
+  "categories": [
+    "Todos",
+    "Pizzas",
+    "Combos",
+    "Entradas",
+    "Bebidas",
+    "Postres"
+  ],
+  "products": [
+    {
+      "id": "pizza-margherita",
+      "name": "Margherita",
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=900&q=80",
+      "description": "Salsa de tomate, mozzarella fior di latte, albahaca fresca y un toque de aceite de oliva.",
+      "price": 17900,
+      "category": "Pizzas",
+      "isPopular": true,
+      "extras": [
+        {
+          "id": "extra-mozzarella",
+          "name": "Extra mozzarella",
+          "price": 2200
+        },
+        {
+          "id": "extra-provolone",
+          "name": "Extra provolone",
+          "price": 2500
+        },
+        {
+          "id": "extra-jamon",
+          "name": "Extra jamón",
+          "price": 2800
+        },
+        {
+          "id": "extra-rucula",
+          "name": "Rúcula fresca",
+          "price": 1800
+        },
+        {
+          "id": "extra-aceitunas",
+          "name": "Aceitunas negras",
+          "price": 1200
+        },
+        {
+          "id": "gaseosa-500ml",
+          "name": "Gaseosa 500 ml",
+          "price": 2200
+        },
+        {
+          "id": "agua-mineral",
+          "name": "Agua mineral",
+          "price": 1800
+        },
+        {
+          "id": "cerveza-lata",
+          "name": "Cerveza lata 473 ml",
+          "price": 3200
+        }
+      ],
+      "options": [
+        {
+          "name": "Mediana",
+          "price": 17900,
+          "description": "Pizza individual de 6 porciones."
+        },
+        {
+          "name": "Grande",
+          "price": 21900,
+          "description": "Pizza grande de 8 porciones para compartir."
+        }
+      ]
+    },
+    {
+      "id": "pizza-pepperoni",
+      "name": "Pepperoni",
+      "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=900&q=80",
+      "description": "Salsa de tomate, mozzarella, abundante pepperoni y orégano recién molido.",
+      "price": 21900,
+      "category": "Pizzas",
+      "isPopular": true,
+      "extras": [
+        {
+          "id": "extra-mozzarella",
+          "name": "Extra mozzarella",
+          "price": 2200
+        },
+        {
+          "id": "extra-pepperoni",
+          "name": "Extra pepperoni",
+          "price": 3200
+        },
+        {
+          "id": "extra-provolone",
+          "name": "Extra provolone",
+          "price": 2500
+        },
+        {
+          "id": "extra-rucula",
+          "name": "Rúcula fresca",
+          "price": 1800
+        },
+        {
+          "id": "extra-aceitunas",
+          "name": "Aceitunas negras",
+          "price": 1200
+        },
+        {
+          "id": "gaseosa-500ml",
+          "name": "Gaseosa 500 ml",
+          "price": 2200
+        },
+        {
+          "id": "agua-mineral",
+          "name": "Agua mineral",
+          "price": 1800
+        },
+        {
+          "id": "cerveza-lata",
+          "name": "Cerveza lata 473 ml",
+          "price": 3200
+        }
+      ],
+      "options": [
+        {
+          "name": "Mediana",
+          "price": 21900,
+          "description": "Pizza de 6 porciones con abundante pepperoni."
+        },
+        {
+          "name": "Grande",
+          "price": 25900,
+          "description": "Pizza grande de 8 porciones para compartir."
+        }
+      ]
+    },
+    {
+      "id": "pizza-fugazzetta",
+      "name": "Fugazzetta",
+      "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=900&q=80",
+      "description": "Mozzarella, abundante cebolla caramelizada, provolone y orégano.",
+      "price": 20500,
+      "category": "Pizzas",
+      "isNew": true,
+      "extras": [
+        {
+          "id": "extra-mozzarella",
+          "name": "Extra mozzarella",
+          "price": 2200
+        },
+        {
+          "id": "extra-provolone",
+          "name": "Extra provolone",
+          "price": 2500
+        },
+        {
+          "id": "extra-jamon",
+          "name": "Extra jamón",
+          "price": 2800
+        },
+        {
+          "id": "extra-bacon",
+          "name": "Extra panceta",
+          "price": 3000
+        },
+        {
+          "id": "extra-rucula",
+          "name": "Rúcula fresca",
+          "price": 1800
+        },
+        {
+          "id": "gaseosa-500ml",
+          "name": "Gaseosa 500 ml",
+          "price": 2200
+        },
+        {
+          "id": "agua-mineral",
+          "name": "Agua mineral",
+          "price": 1800
+        }
+      ],
+      "options": [
+        {
+          "name": "Mediana",
+          "price": 20500,
+          "description": "Fugazzetta de 6 porciones."
+        },
+        {
+          "name": "Grande",
+          "price": 24500,
+          "description": "Fugazzetta grande de 8 porciones."
+        }
+      ]
+    },
+    {
+      "id": "pizza-cuatro-quesos",
+      "name": "Cuatro Quesos",
+      "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=900&q=80",
+      "description": "Mozzarella, provolone, queso azul y parmesano sobre una base cremosa y dorada.",
+      "price": 23900,
+      "category": "Pizzas",
+      "isPopular": true,
+      "extras": [
+        {
+          "id": "extra-mozzarella",
+          "name": "Extra mozzarella",
+          "price": 2200
+        },
+        {
+          "id": "extra-provolone",
+          "name": "Extra provolone",
+          "price": 2500
+        },
+        {
+          "id": "extra-parmesano",
+          "name": "Extra parmesano",
+          "price": 2200
+        },
+        {
+          "id": "extra-rucula",
+          "name": "Rúcula fresca",
+          "price": 1800
+        },
+        {
+          "id": "gaseosa-500ml",
+          "name": "Gaseosa 500 ml",
+          "price": 2200
+        },
+        {
+          "id": "agua-mineral",
+          "name": "Agua mineral",
+          "price": 1800
+        },
+        {
+          "id": "cerveza-lata",
+          "name": "Cerveza lata 473 ml",
+          "price": 3200
+        }
+      ],
+      "options": [
+        {
+          "name": "Mediana",
+          "price": 23900,
+          "description": "Pizza de 6 porciones con cuatro quesos."
+        },
+        {
+          "name": "Grande",
+          "price": 27900,
+          "description": "Pizza grande de 8 porciones."
+        }
+      ]
+    },
+    {
+      "id": "pizza-jamon-rucula",
+      "name": "Jamón & Rúcula",
+      "image": "https://images.unsplash.com/photo-1593560708920-61dd98c8a2a5?w=900&q=80",
+      "description": "Mozzarella, jamón crudo, rúcula fresca, tomates cherry y escamas de parmesano.",
+      "price": 24900,
+      "category": "Pizzas",
+      "isNew": true,
+      "extras": [
+        {
+          "id": "extra-mozzarella",
+          "name": "Extra mozzarella",
+          "price": 2200
+        },
+        {
+          "id": "extra-jamon-crudo",
+          "name": "Extra jamón crudo",
+          "price": 3500
+        },
+        {
+          "id": "extra-rucula",
+          "name": "Extra rúcula",
+          "price": 1800
+        },
+        {
+          "id": "extra-parmesano",
+          "name": "Extra parmesano",
+          "price": 2200
+        },
+        {
+          "id": "extra-tomates",
+          "name": "Tomates cherry",
+          "price": 1600
+        },
+        {
+          "id": "gaseosa-500ml",
+          "name": "Gaseosa 500 ml",
+          "price": 2200
+        },
+        {
+          "id": "agua-mineral",
+          "name": "Agua mineral",
+          "price": 1800
+        }
+      ],
+      "options": [
+        {
+          "name": "Mediana",
+          "price": 24900,
+          "description": "Pizza de 6 porciones con jamón crudo y rúcula."
+        },
+        {
+          "name": "Grande",
+          "price": 28900,
+          "description": "Pizza grande de 8 porciones."
+        }
+      ]
+    },
+    {
+      "id": "pizza-napolitana",
+      "name": "Napolitana",
+      "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=900&q=80",
+      "description": "Salsa de tomate, mozzarella, rodajas de tomate fresco, ajo, albahaca y orégano.",
+      "price": 19500,
+      "category": "Pizzas",
+      "extras": [
+        {
+          "id": "extra-mozzarella",
+          "name": "Extra mozzarella",
+          "price": 2200
+        },
+        {
+          "id": "extra-jamon",
+          "name": "Extra jamón",
+          "price": 2800
+        },
+        {
+          "id": "extra-provolone",
+          "name": "Extra provolone",
+          "price": 2500
+        },
+        {
+          "id": "extra-ajo",
+          "name": "Ajo extra",
+          "price": 700
+        },
+        {
+          "id": "extra-rucula",
+          "name": "Rúcula fresca",
+          "price": 1800
+        },
+        {
+          "id": "gaseosa-500ml",
+          "name": "Gaseosa 500 ml",
+          "price": 2200
+        },
+        {
+          "id": "agua-mineral",
+          "name": "Agua mineral",
+          "price": 1800
+        }
+      ],
+      "options": [
+        {
+          "name": "Mediana",
+          "price": 19500,
+          "description": "Pizza napolitana de 6 porciones."
+        },
+        {
+          "name": "Grande",
+          "price": 23500,
+          "description": "Pizza napolitana grande de 8 porciones."
+        }
+      ]
+    },
+    {
+      "id": "combo-pareja",
+      "name": "Combo Para Dos",
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=900&q=80",
+      "description": "Una pizza grande a elección, una porción de papas y dos bebidas de 500 ml.",
+      "price": 29900,
+      "category": "Combos",
+      "discount": 12
+    },
+    {
+      "id": "combo-familia",
+      "name": "Combo Familiar",
+      "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=900&q=80",
+      "description": "Dos pizzas grandes a elección, una porción de papas y una gaseosa de 1.5 litros.",
+      "price": 47900,
+      "category": "Combos",
+      "isPopular": true,
+      "discount": 15
+    },
+    {
+      "id": "fainá",
+      "name": "Fainá Tradicional",
+      "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=900&q=80",
+      "description": "Clásica fainá de harina de garbanzos, dorada por fuera y cremosa por dentro.",
+      "price": 3200,
+      "category": "Entradas"
+    },
+    {
+      "id": "papas-rusticas",
+      "name": "Papas Rústicas",
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=900&q=80",
+      "description": "Papas rústicas con piel, romero, ajo y sal marina.",
+      "price": 5800,
+      "category": "Entradas",
+      "isPopular": true
+    },
+    {
+      "id": "provoleta",
+      "name": "Provoleta al Horno",
+      "image": "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=900&q=80",
+      "description": "Provolone fundido al horno con orégano, pimienta negra y aceite de oliva.",
+      "price": 6900,
+      "category": "Entradas"
+    },
+    {
+      "id": "coca-cola",
+      "name": "Coca-Cola 500 ml",
+      "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=900&q=80",
+      "description": "Coca-Cola bien fría de 500 ml.",
+      "price": 2200,
+      "category": "Bebidas"
+    },
+    {
+      "id": "limonada",
+      "name": "Limonada Casera",
+      "image": "https://images.unsplash.com/photo-1523677011781-c91d1bbe2f0a?w=900&q=80",
+      "description": "Limonada fresca preparada con limón, menta y un toque de jengibre.",
+      "price": 3900,
+      "category": "Bebidas",
+      "isNew": true
+    },
+    {
+      "id": "cerveza-artesanal",
+      "name": "Cerveza IPA 473 ml",
+      "image": "https://images.unsplash.com/photo-1608270586620-248524c67de9?w=900&q=80",
+      "description": "Cerveza artesanal IPA de perfil cítrico y amargor equilibrado.",
+      "price": 4200,
+      "category": "Bebidas"
+    },
+    {
+      "id": "tiramisú",
+      "name": "Tiramisú Casero",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=900&q=80",
+      "description": "Clásico tiramisú italiano con café, mascarpone y cacao amargo.",
+      "price": 6200,
+      "category": "Postres",
+      "isNew": true
+    },
+    {
+      "id": "brownie-chocolate",
+      "name": "Brownie de Chocolate",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=900&q=80",
+      "description": "Brownie húmedo de chocolate intenso con nueces y salsa de chocolate.",
+      "price": 5700,
+      "category": "Postres"
+    }
+  ]
+}
