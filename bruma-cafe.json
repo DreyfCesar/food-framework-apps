@@ -1,0 +1,409 @@
+{
+  "name": "Bruma Café",
+  "logo": "https://cdn-icons-png.flaticon.com/512/924/924514.png",
+  "contacts": {
+    "phone": "1147892365",
+    "addresses": [
+      "Gorriti 4821, Palermo, CABA"
+    ],
+    "email": "hola@brumacafe.com",
+    "hours": "Lunes a Viernes: 08:00-20:00 | Sábados y Domingos: 09:00-21:00",
+    "socialNetworks": [
+      {
+        "name": "facebook",
+        "url": "https://facebook.com/"
+      },
+      {
+        "name": "instagram",
+        "url": "https://instagram.com/"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Palermo",
+        "address": "Gorriti 4821, Palermo, CABA",
+        "url": "https://www.google.com/maps?q=Gorriti+4821,+Buenos+Aires&output=embed"
+      }
+    ],
+    "whatsapp": [
+      {
+        "phone": "5491147892365"
+      }
+    ]
+  },
+  "tagline": "Café de especialidad, todos los días",
+  "hero": {
+    "subtitle": "Café recién molido, pastelería artesanal y un espacio pensado para bajar un cambio. Tu pausa favorita empieza acá.",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1000&q=80",
+    "rating": 4.9,
+    "images": [
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1000&q=80",
+      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1000&q=80",
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1000&q=80",
+      "https://images.unsplash.com/photo-1555507036-ab1c1c7c2a1c?w=1000&q=80"
+    ]
+  },
+  "about": {
+    "description": "Bruma nació para hacer del café cotidiano un momento especial. Trabajamos con granos seleccionados, pastelería artesanal y productos frescos que preparamos todos los días en nuestro local de Palermo.",
+    "features": [
+      {
+        "icon": "coffee",
+        "title": "Café de especialidad",
+        "description": "Seleccionamos granos de origen único y los preparamos en cada taza al momento."
+      },
+      {
+        "icon": "leaf",
+        "title": "Ingredientes frescos",
+        "description": "Trabajamos con productos de estación y materias primas seleccionadas."
+      },
+      {
+        "icon": "heart",
+        "title": "Pastelería artesanal",
+        "description": "Tortas, cookies y viennoiserie elaboradas diariamente en nuestro obrador."
+      },
+      {
+        "icon": "wifi",
+        "title": "Tu lugar de siempre",
+        "description": "Un espacio cómodo con WiFi para trabajar, estudiar o simplemente disfrutar."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
+        "alt": "Interior de Bruma Café"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80",
+        "alt": "Café de especialidad"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1555507036-ab1c1c7c2a1c?w=600&q=80",
+        "alt": "Pastelería artesanal"
+      }
+    ],
+    "floating": {
+      "icon": "award",
+      "label": "+5 años",
+      "description": "haciendo buen café"
+    },
+    "stats": [
+      {
+        "label": "+35K",
+        "description": "Cafés servidos"
+      },
+      {
+        "label": "18",
+        "description": "Variedades de café"
+      },
+      {
+        "label": "4.9★",
+        "description": "Rating promedio"
+      },
+      {
+        "label": "7 días",
+        "description": "Abierto toda la semana"
+      }
+    ]
+  },
+  "theme": {
+    "--app-primary": "oklch(0.38 0.07 45)",
+    "--app-primary-foreground": "oklch(0.98 0.015 90)",
+    "--app-secondary": "oklch(0.68 0.09 75)",
+    "--app-secondary-foreground": "oklch(0.22 0.035 45)",
+    "--app-accent": "oklch(0.62 0.10 145)",
+    "--app-accent-foreground": "oklch(0.98 0.015 90)",
+    "--app-background": "oklch(0.96 0.025 85)",
+    "--app-foreground": "oklch(0.24 0.035 45)",
+    "--app-card": "oklch(0.995 0.008 90)",
+    "--app-card-foreground": "oklch(0.24 0.035 45)",
+    "--app-muted": "oklch(0.91 0.035 78)",
+    "--app-muted-foreground": "oklch(0.48 0.035 48)",
+    "--app-border": "oklch(0.86 0.035 75)",
+    "--app-destructive": "oklch(0.55 0.2 25)",
+    "--app-destructive-foreground": "oklch(1 0 0)",
+    "--app-ring": "oklch(0.48 0.08 45)",
+    "--app-radius": "1rem",
+    "--app-font": "\"Poppins\", system-ui, sans-serif"
+  },
+  "categories": [
+    "Todos",
+    "Cafés",
+    "Desayunos",
+    "Pastelería",
+    "Sandwiches",
+    "Bebidas"
+  ],
+  "products": [
+    {
+      "id": "cafe-americano",
+      "name": "Café Americano",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&q=80",
+      "description": "Espresso doble con agua caliente, intenso, aromático y equilibrado.",
+      "price": 3200,
+      "category": "Cafés",
+      "isPopular": true,
+      "extras": [
+        {
+          "id": "extra-shot",
+          "name": "Shot extra de espresso",
+          "price": 900
+        },
+        {
+          "id": "leche-entera",
+          "name": "Leche entera",
+          "price": 500
+        },
+        {
+          "id": "leche-avena",
+          "name": "Leche de avena",
+          "price": 900
+        },
+        {
+          "id": "leche-almendras",
+          "name": "Leche de almendras",
+          "price": 1000
+        },
+        {
+          "id": "jarabe-vainilla",
+          "name": "Jarabe de vainilla",
+          "price": 700
+        }
+      ],
+      "options": [
+        {
+          "name": "Chico",
+          "price": 3200,
+          "description": "Una taza de 180 ml."
+        },
+        {
+          "name": "Grande",
+          "price": 3900,
+          "description": "Una taza de 300 ml."
+        }
+      ]
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=900&q=80",
+      "description": "Espresso doble, leche texturizada y espuma cremosa con un delicado latte art.",
+      "price": 4200,
+      "category": "Cafés",
+      "isPopular": true,
+      "extras": [
+        {
+          "id": "extra-shot",
+          "name": "Shot extra de espresso",
+          "price": 900
+        },
+        {
+          "id": "leche-avena",
+          "name": "Leche de avena",
+          "price": 900
+        },
+        {
+          "id": "leche-almendras",
+          "name": "Leche de almendras",
+          "price": 1000
+        },
+        {
+          "id": "jarabe-vainilla",
+          "name": "Jarabe de vainilla",
+          "price": 700
+        },
+        {
+          "id": "canela",
+          "name": "Canela",
+          "price": 400
+        }
+      ],
+      "options": [
+        {
+          "name": "Clásico",
+          "price": 4200,
+          "description": "Cappuccino tradicional con leche entera."
+        },
+        {
+          "name": "Avena",
+          "price": 5100,
+          "description": "Cappuccino preparado con leche de avena."
+        }
+      ]
+    },
+    {
+      "id": "latte-vainilla",
+      "name": "Latte de Vainilla",
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=900&q=80",
+      "description": "Espresso, leche vaporizada y un toque de vainilla artesanal.",
+      "price": 4600,
+      "category": "Cafés",
+      "isNew": true,
+      "extras": [
+        {
+          "id": "extra-shot",
+          "name": "Shot extra de espresso",
+          "price": 900
+        },
+        {
+          "id": "leche-avena",
+          "name": "Leche de avena",
+          "price": 900
+        },
+        {
+          "id": "leche-almendras",
+          "name": "Leche de almendras",
+          "price": 1000
+        },
+        {
+          "id": "extra-vainilla",
+          "name": "Extra vainilla",
+          "price": 700
+        }
+      ],
+      "options": [
+        {
+          "name": "Caliente",
+          "price": 4600,
+          "description": "Latte clásico servido caliente."
+        },
+        {
+          "name": "Frío",
+          "price": 4900,
+          "description": "Latte con hielo, ideal para días cálidos."
+        }
+      ]
+    },
+    {
+      "id": "cold-brew",
+      "name": "Cold Brew",
+      "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=900&q=80",
+      "description": "Café extraído en frío durante varias horas, suave, refrescante y naturalmente dulce.",
+      "price": 4800,
+      "category": "Cafés",
+      "isNew": true,
+      "extras": [
+        {
+          "id": "leche-avena",
+          "name": "Leche de avena",
+          "price": 900
+        },
+        {
+          "id": "jarabe-vainilla",
+          "name": "Jarabe de vainilla",
+          "price": 700
+        },
+        {
+          "id": "extra-hielo",
+          "name": "Extra hielo",
+          "price": 300
+        }
+      ],
+      "options": [
+        {
+          "name": "Clásico",
+          "price": 4800,
+          "description": "Cold brew servido sobre hielo."
+        },
+        {
+          "name": "Con leche",
+          "price": 5400,
+          "description": "Cold brew con leche a elección."
+        }
+      ]
+    },
+    {
+      "id": "combo-desayuno",
+      "name": "Desayuno Bruma",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=900&q=80",
+      "description": "Café con leche o cappuccino, dos medialunas y jugo de naranja exprimido.",
+      "price": 8900,
+      "category": "Desayunos",
+      "isPopular": true,
+      "discount": 10
+    },
+    {
+      "id": "combo-brunch",
+      "name": "Brunch Bruma",
+      "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=900&q=80",
+      "description": "Café a elección, tostadas de masa madre, huevos revueltos, palta, fruta fresca y una mini pastelería.",
+      "price": 14900,
+      "category": "Desayunos",
+      "isNew": true
+    },
+    {
+      "id": "croissant",
+      "name": "Croissant de Manteca",
+      "image": "https://images.unsplash.com/photo-1555507036-ab1c1c7c2a1c?w=900&q=80",
+      "description": "Croissant artesanal de masa laminada, mantecoso, aireado y recién horneado.",
+      "price": 3900,
+      "category": "Pastelería",
+      "isPopular": true
+    },
+    {
+      "id": "roll-canela",
+      "name": "Roll de Canela",
+      "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=900&q=80",
+      "description": "Masa suave con canela, azúcar mascabo y glaseado de queso crema.",
+      "price": 4500,
+      "category": "Pastelería"
+    },
+    {
+      "id": "cookie-chocolate",
+      "name": "Cookie de Chocolate",
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=900&q=80",
+      "description": "Cookie grande, crocante por fuera y tierna por dentro, con abundantes chips de chocolate.",
+      "price": 3700,
+      "category": "Pastelería"
+    },
+    {
+      "id": "cheesecake-frutos-rojos",
+      "name": "Cheesecake de Frutos Rojos",
+      "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=900&q=80",
+      "description": "Cheesecake cremoso sobre base de galletas con salsa casera de frutos rojos.",
+      "price": 6200,
+      "category": "Pastelería",
+      "isNew": true
+    },
+    {
+      "id": "tostado-jamon-queso",
+      "name": "Tostado de Jamón & Queso",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=900&q=80",
+      "description": "Pan de masa madre tostado con jamón cocido, queso fundido y manteca.",
+      "price": 6900,
+      "category": "Sandwiches",
+      "isPopular": true
+    },
+    {
+      "id": "sandwich-pollo-palta",
+      "name": "Pollo & Palta",
+      "image": "https://images.unsplash.com/photo-1553909489-cd47e0907980?w=900&q=80",
+      "description": "Pan artesanal, pollo grillado, palta, tomate, rúcula y mayonesa de limón.",
+      "price": 8900,
+      "category": "Sandwiches"
+    },
+    {
+      "id": "limonada",
+      "name": "Limonada con Menta",
+      "image": "https://images.unsplash.com/photo-1523677011781-c91d1bbe2f0a?w=900&q=80",
+      "description": "Limonada fresca preparada al momento con limón, menta y un toque de jengibre.",
+      "price": 4200,
+      "category": "Bebidas"
+    },
+    {
+      "id": "te-frutos-rojos",
+      "name": "Té Frutos Rojos",
+      "image": "https://images.unsplash.com/photo-1597318181409-cf64d0c5d8a5?w=900&q=80",
+      "description": "Infusión aromática de frutos rojos, hibiscus y especias suaves.",
+      "price": 3400,
+      "category": "Bebidas"
+    },
+    {
+      "id": "jugo-naranja",
+      "name": "Jugo de Naranja",
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=900&q=80",
+      "description": "Jugo de naranja natural exprimido al momento.",
+      "price": 4300,
+      "category": "Bebidas"
+    }
+  ]
+}
